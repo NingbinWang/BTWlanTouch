@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69D001A2816FF64009DC678 /* BTWlanTouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D00192816FF64009DC678 /* BTWlanTouchApp.swift */; };
+		A69D001C2816FF64009DC678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D001B2816FF64009DC678 /* ContentView.swift */; };
+		A69D001E2816FF6B009DC678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69D001D2816FF6B009DC678 /* Assets.xcassets */; };
+		A69D00212816FF6B009DC678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69D00202816FF6B009DC678 /* Preview Assets.xcassets */; };
+		A69D002B2816FF6B009DC678 /* BTWlanTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D002A2816FF6B009DC678 /* BTWlanTouchTests.swift */; };
+		A69D00352816FF6B009DC678 /* BTWlanTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D00342816FF6B009DC678 /* BTWlanTouchUITests.swift */; };
+		A69D00372816FF6B009DC678 /* BTWlanTouchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D00362816FF6B009DC678 /* BTWlanTouchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69D00272816FF6B009DC678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69D000E2816FF64009DC678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69D00152816FF64009DC678;
+			remoteInfo = BTWlanTouch;
+		};
+		A69D00312816FF6B009DC678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69D000E2816FF64009DC678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69D00152816FF64009DC678;
+			remoteInfo = BTWlanTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A69D00162816FF64009DC678 /* BTWlanTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTWlanTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69D00192816FF64009DC678 /* BTWlanTouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTWlanTouchApp.swift; sourceTree = "<group>"; };
+		A69D001B2816FF64009DC678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A69D001D2816FF6B009DC678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A69D00202816FF6B009DC678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A69D00262816FF6B009DC678 /* BTWlanTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTWlanTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69D002A2816FF6B009DC678 /* BTWlanTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTWlanTouchTests.swift; sourceTree = "<group>"; };
+		A69D00302816FF6B009DC678 /* BTWlanTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTWlanTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69D00342816FF6B009DC678 /* BTWlanTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTWlanTouchUITests.swift; sourceTree = "<group>"; };
+		A69D00362816FF6B009DC678 /* BTWlanTouchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTWlanTouchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69D00132816FF64009DC678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D00232816FF6B009DC678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D002D2816FF6B009DC678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69D000D2816FF64009DC678 = {
+			isa = PBXGroup;
+			children = (
+				A69D00182816FF64009DC678 /* BTWlanTouch */,
+				A69D00292816FF6B009DC678 /* BTWlanTouchTests */,
+				A69D00332816FF6B009DC678 /* BTWlanTouchUITests */,
+				A69D00172816FF64009DC678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69D00172816FF64009DC678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69D00162816FF64009DC678 /* BTWlanTouch.app */,
+				A69D00262816FF6B009DC678 /* BTWlanTouchTests.xctest */,
+				A69D00302816FF6B009DC678 /* BTWlanTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69D00182816FF64009DC678 /* BTWlanTouch */ = {
+			isa = PBXGroup;
+			children = (
+				A69D00192816FF64009DC678 /* BTWlanTouchApp.swift */,
+				A69D001B2816FF64009DC678 /* ContentView.swift */,
+				A69D001D2816FF6B009DC678 /* Assets.xcassets */,
+				A69D001F2816FF6B009DC678 /* Preview Content */,
+			);
+			path = BTWlanTouch;
+			sourceTree = "<group>";
+		};
+		A69D001F2816FF6B009DC678 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A69D00202816FF6B009DC678 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A69D00292816FF6B009DC678 /* BTWlanTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A69D002A2816FF6B009DC678 /* BTWlanTouchTests.swift */,
+			);
+			path = BTWlanTouchTests;
+			sourceTree = "<group>";
+		};
+		A69D00332816FF6B009DC678 /* BTWlanTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A69D00342816FF6B009DC678 /* BTWlanTouchUITests.swift */,
+				A69D00362816FF6B009DC678 /* BTWlanTouchUITestsLaunchTests.swift */,
+			);
+			path = BTWlanTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69D00152816FF64009DC678 /* BTWlanTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69D003A2816FF6B009DC678 /* Build configuration list for PBXNativeTarget "BTWlanTouch" */;
+			buildPhases = (
+				A69D00122816FF64009DC678 /* Sources */,
+				A69D00132816FF64009DC678 /* Frameworks */,
+				A69D00142816FF64009DC678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTWlanTouch;
+			productName = BTWlanTouch;
+			productReference = A69D00162816FF64009DC678 /* BTWlanTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A69D00252816FF6B009DC678 /* BTWlanTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69D003D2816FF6B009DC678 /* Build configuration list for PBXNativeTarget "BTWlanTouchTests" */;
+			buildPhases = (
+				A69D00222816FF6B009DC678 /* Sources */,
+				A69D00232816FF6B009DC678 /* Frameworks */,
+				A69D00242816FF6B009DC678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69D00282816FF6B009DC678 /* PBXTargetDependency */,
+			);
+			name = BTWlanTouchTests;
+			productName = BTWlanTouchTests;
+			productReference = A69D00262816FF6B009DC678 /* BTWlanTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A69D002F2816FF6B009DC678 /* BTWlanTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69D00402816FF6B009DC678 /* Build configuration list for PBXNativeTarget "BTWlanTouchUITests" */;
+			buildPhases = (
+				A69D002C2816FF6B009DC678 /* Sources */,
+				A69D002D2816FF6B009DC678 /* Frameworks */,
+				A69D002E2816FF6B009DC678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69D00322816FF6B009DC678 /* PBXTargetDependency */,
+			);
+			name = BTWlanTouchUITests;
+			productName = BTWlanTouchUITests;
+			productReference = A69D00302816FF6B009DC678 /* BTWlanTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69D000E2816FF64009DC678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A69D00152816FF64009DC678 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A69D00252816FF6B009DC678 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A69D00152816FF64009DC678;
+					};
+					A69D002F2816FF6B009DC678 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A69D00152816FF64009DC678;
+					};
+				};
+			};
+			buildConfigurationList = A69D00112816FF64009DC678 /* Build configuration list for PBXProject "BTWlanTouch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A69D000D2816FF64009DC678;
+			productRefGroup = A69D00172816FF64009DC678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69D00152816FF64009DC678 /* BTWlanTouch */,
+				A69D00252816FF6B009DC678 /* BTWlanTouchTests */,
+				A69D002F2816FF6B009DC678 /* BTWlanTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69D00142816FF64009DC678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69D00212816FF6B009DC678 /* Preview Assets.xcassets in Resources */,
+				A69D001E2816FF6B009DC678 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D00242816FF6B009DC678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D002E2816FF6B009DC678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69D00122816FF64009DC678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69D001C2816FF64009DC678 /* ContentView.swift in Sources */,
+				A69D001A2816FF64009DC678 /* BTWlanTouchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D00222816FF6B009DC678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69D002B2816FF6B009DC678 /* BTWlanTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69D002C2816FF6B009DC678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69D00372816FF6B009DC678 /* BTWlanTouchUITestsLaunchTests.swift in Sources */,
+				A69D00352816FF6B009DC678 /* BTWlanTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69D00282816FF6B009DC678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69D00152816FF64009DC678 /* BTWlanTouch */;
+			targetProxy = A69D00272816FF6B009DC678 /* PBXContainerItemProxy */;
+		};
+		A69D00322816FF6B009DC678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69D00152816FF64009DC678 /* BTWlanTouch */;
+			targetProxy = A69D00312816FF6B009DC678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A69D00382816FF6B009DC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A69D00392816FF6B009DC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69D003B2816FF6B009DC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BTWlanTouch/Preview Content\"";
+				DEVELOPMENT_TEAM = QDB8P8F4RE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuubu.BTWlanTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69D003C2816FF6B009DC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BTWlanTouch/Preview Content\"";
+				DEVELOPMENT_TEAM = QDB8P8F4RE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuubu.BTWlanTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A69D003E2816FF6B009DC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDB8P8F4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuubu.BTWlanTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTWlanTouch.app/BTWlanTouch";
+			};
+			name = Debug;
+		};
+		A69D003F2816FF6B009DC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDB8P8F4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuubu.BTWlanTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTWlanTouch.app/BTWlanTouch";
+			};
+			name = Release;
+		};
+		A69D00412816FF6B009DC678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDB8P8F4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuubu.BTWlanTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BTWlanTouch;
+			};
+			name = Debug;
+		};
+		A69D00422816FF6B009DC678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDB8P8F4RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuubu.BTWlanTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BTWlanTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69D00112816FF64009DC678 /* Build configuration list for PBXProject "BTWlanTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69D00382816FF6B009DC678 /* Debug */,
+				A69D00392816FF6B009DC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69D003A2816FF6B009DC678 /* Build configuration list for PBXNativeTarget "BTWlanTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69D003B2816FF6B009DC678 /* Debug */,
+				A69D003C2816FF6B009DC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69D003D2816FF6B009DC678 /* Build configuration list for PBXNativeTarget "BTWlanTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69D003E2816FF6B009DC678 /* Debug */,
+				A69D003F2816FF6B009DC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69D00402816FF6B009DC678 /* Build configuration list for PBXNativeTarget "BTWlanTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69D00412816FF6B009DC678 /* Debug */,
+				A69D00422816FF6B009DC678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69D000E2816FF64009DC678 /* Project object */;
+}
